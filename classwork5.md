@@ -2,6 +2,10 @@
 
 Note: "classwork" questions are bolded. The rest of the questions are available if you have extra time. You are welcome to include more answers in your classwork submission, but you are not required to.
 
+## Part 0
+
+**(CW) What are some of the limitations of using spreadsheets for data analytics?**
+
 ### Mathematical Operators in R
 
 | Operator | Description |
@@ -200,3 +204,4 @@ date <- c("Jan17", "Jan18", "Jan19", "Jan20", "Jan23", "Jan24", "Jan25", "Jan26"
 1. (Challenge) Find the average of the `tesla_price` vector's first four entries (corresopnding to Jan17 through Jan20), and do the same for `apple_price`.
 1. (Challenge) We will not be focusing on some of the other basic functionality of R in this class, such as for loops and function definitions. However, you can look up the syntax of for loops (https://www.w3schools.com/r/r_for_loop.asp) and functions (https://www.w3schools.com/r/r_functions.asp) and test them out for yourself.
 1. (Challenge) Use a loop to write a function num.odd(v) that returns how many odd numbers there are in the vector v. Then, write a function num.odd2(v) that does the same thing without using a loop.
+

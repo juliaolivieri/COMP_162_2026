@@ -6,6 +6,8 @@ Note: "classwork" questions are bolded. The rest of the questions are available 
 
 **(CW) What are some of the limitations of using spreadsheets for data analytics?**
 
+## Part 1: Introduction to R
+
 ### Mathematical Operators in R
 
 | Operator | Description |
@@ -54,7 +56,7 @@ Note: "classwork" questions are bolded. The rest of the questions are available 
 |Integer | int | 3L, -1L, 12L |
 | Logical | logi | TRUE, FALSE, T, F |
 
-## Part 0: Introduction to R
+
 
 ### Example code from lecture
 ```
@@ -78,7 +80,7 @@ Note: "classwork" questions are bolded. The rest of the questions are available 
 1. Try looking up the documentation for the following functions and trying out the example code: `rnorm()`,  `hist()`,  `max()`, `boxplot()`
 
 
-## Part 1: R Basics
+## Part 2: R Basics
 
 ### Example code from lecture
 ```
@@ -127,7 +129,7 @@ str(x)
 1. Assign var8 to "5". What type is this variable?
 1. Is var8 equal to var6?
 
-## Part 2: Vectors
+## Part 3: Vectors
 
 ### Example Code from Lecture
 
@@ -204,4 +206,5 @@ date <- c("Jan17", "Jan18", "Jan19", "Jan20", "Jan23", "Jan24", "Jan25", "Jan26"
 1. (Challenge) Find the average of the `tesla_price` vector's first four entries (corresopnding to Jan17 through Jan20), and do the same for `apple_price`.
 1. (Challenge) We will not be focusing on some of the other basic functionality of R in this class, such as for loops and function definitions. However, you can look up the syntax of for loops (https://www.w3schools.com/r/r_for_loop.asp) and functions (https://www.w3schools.com/r/r_functions.asp) and test them out for yourself.
 1. (Challenge) Use a loop to write a function num.odd(v) that returns how many odd numbers there are in the vector v. Then, write a function num.odd2(v) that does the same thing without using a loop.
+
 

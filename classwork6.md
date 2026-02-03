@@ -31,13 +31,14 @@ ggsave("my_first_plot.png")
 1. **(Classwork) Use the code above to create a plot of `displ` vs `hwy`.**
 1. **(Classwork) Save this plot using `ggsave()` (example command above). You may want to set your working directory to a convenient place for the plot to be output.**
 1. **(Classwork) Make a scatterplot of `hwy` versus `cyl`.**
-1. What can you conclude from this scatterplot?
+1. **(Classwork) What can you conclude from this scatterplot?**
 1. Run `ggplot(data = mpg, mapping = aes(x = displ, y = hwy))`. What do you see?
-1. Try switching `hwy` and `displ` between the two axes.+ 
+1. Try switching `hwy` and `displ` between the two axes.
 1. Try using the following commands from last lecture on this data: `head(mpg)`, `head()`, `summary()`, `str()`. 
 1. How many rows does `mpg` have? How many columns?
-1. What does the `drv` variable describe? Read the help for `?mpg` to find out.+
-1. What happens if you make a scatterplot of `class` versus `drv`? Why is the plot not useful?+
+1. What does the `drv` variable describe? Read the help for `?mpg` to find out.
+1. What happens if you make a scatterplot of `class` versus `drv`? Why is the plot not useful?
+1. Try making scatterplots for other combinations of quantitative variables. What can you learn about the data?
  
 ## Part 2: Changing plot aesthetics
 
@@ -117,4 +118,5 @@ ggplot(mpg, aes(x = displ, y = hwy)) +
 1. Try making either a histogram or bar plot for each variable in mpg, depending on whether it's quantitative or categorical.
 1. (Challenge) What happens when you use color in these plots?+
 1. (Challenge) Scroll through this list of the "top 50 ggplot2 visualizations": http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html. Copy and paste the code for one that is of interest to you. Can you make a version of that plot using the `mpg` data? 
+
 

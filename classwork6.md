@@ -62,8 +62,8 @@ ggplot(mpg, aes(displ,
 ### Exercises
 1. **(CW) Plot `cty` vs `hwy` and color by `drv`, determine shape by `fl`, and size by `displ`.**
 1. **(CW) Make three different plots of `cty` vs `hwy`, the first colored by `drv`, the second with shape determined by `fl`, and the third with size determined by `displ`.**
-1. Is it easier to see patterns in the plot from 1. or the plot from 2.?
-1. Plot `displ` vs `cty`. Try mapping color to `hwy`. What happens?+
+1. **(CW) Is it easier to see patterns in the plot from 1. or the plot from 2.?**
+1. **(CW) Plot `displ` vs `cty`. Try mapping color to `hwy`. What happens?**
 1. Try mapping a quantitative variable to shape. What happens?+
 1. Try mapping a categorical variable to size. What happens?+
 1. What happens if you map the same variable to multiple aesthetics?+
@@ -118,5 +118,6 @@ ggplot(mpg, aes(x = displ, y = hwy)) +
 1. Try making either a histogram or bar plot for each variable in mpg, depending on whether it's quantitative or categorical.
 1. (Challenge) What happens when you use color in these plots?+
 1. (Challenge) Scroll through this list of the "top 50 ggplot2 visualizations": http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html. Copy and paste the code for one that is of interest to you. Can you make a version of that plot using the `mpg` data? 
+
 
 

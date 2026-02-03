@@ -117,3 +117,4 @@ ggplot(mpg, aes(x = displ, y = hwy)) +
 1. Try making either a histogram or bar plot for each variable in mpg, depending on whether it's quantitative or categorical.
 1. (Challenge) What happens when you use color in these plots?+
 1. (Challenge) Scroll through this list of the "top 50 ggplot2 visualizations": http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html. Copy and paste the code for one that is of interest to you. Can you make a version of that plot using the `mpg` data? 
+

@@ -43,8 +43,9 @@ ggplot(msleep, aes(sleep_total,brainwt)) +
 1. **(CW) Create a scatterplot of `brainwt` vs `bodywt`.**
 2. **(CW) Test out changing one or both of the axes to log scale. Which creates the most informative plot?**
 3. **(CW) Create at least one more plot to answer one of your questions about the data.**
-4. Try changing some of the aesthetic properties of your plots. How can you convey the most information in your plot?
-5. Are there any questions that you weren't able to answer using the techniques we've learned so far?
+4. **(CW) What is your intepretation of this plot?**
+5. Try changing some of the aesthetic properties of your plots. How can you convey the most information in your plot?
+6. Are there any questions that you weren't able to answer using the techniques we've learned so far?
 
 
 ## Part 3: 
@@ -72,7 +73,7 @@ ggplot(msleep, aes(vore, sleep_total)) +
 2. **(CW) Try log-scaling the `brainwt` axis.**
 3. **(CW) Add points to your plot.**
 4. **(CW) Add jitter to your plot.**
-5. What conclusions can you draw from this boxplot?
+5. **(CW) What conclusions can you draw from this boxplot?**
 6. **(CW) Create a boxplot of `conservation` vs one of the quantitative variables.**
 7. Try using the "color" aesthetic in a box plot. What happens?
 8. (Challenge) Look up the ggplot2 cheatsheet. Try other geoms that are suggested for plotting a continuous and discrete variable.
@@ -107,11 +108,11 @@ ggplot(msleep, aes(brainwt, bodywt)) +
 1. **(CW) Create a scatterplot of `brainwt` vs `sleep_total`. Consider log-scaling one or both of the axes.**
 2. **(CW) Add a text layer to your plot. Consider using `check_overlap=T` to make it look neater.**
 3. **(CW) Add a trend line through the data**
-4. What are some animals in the dataset that sleep for the smallest amount of time?
-5. What are some animals in the dataset that sleep for the largest amount of time?
+4. **(CW) What are some animals in the dataset that sleep for the smallest amount of time?**
+5. **(CW) What are some animals in the dataset that sleep for the largest amount of time?**
 6. Try adding a text layer to a boxplot.
 7. Synthesizing everything we have learned about plotting in ggplot2, try to create the most interesting and informative plot that you can based on the msleep data.
-8. **(CW) Submit the plot that you are most proud of to this google form: [https://forms.gle/LPirk3X3E4tUpoPo8](https://forms.gle/xBbQ8EsW6wmjA55p7). I will share some of the submissions in a future video.**
+8. **(CW) Submit the plot that you are most proud of to this google form: [https://forms.gle/LPirk3X3E4tUpoPo8](https://forms.gle/xBbQ8EsW6wmjA55p7). I will share some of the submissions.**
 9. (Challenge) Try creating a text layer that is colored by one of the categorical variables.
 10. (Challenge) Explore the additional capabilities of ggplot2 that are summarized in the cheatsheet. Are there any techniques that we didn't go over that you could see yourself using in the future?
 
@@ -141,3 +142,4 @@ write_csv(msleep, "new_sleep.csv")
 1. Define a new column that is equal to the price of the meal per person (`total_bill` plus `tip` divided by `size`).
 1. **(CW) Write this data frame to a .csv file using the following command: `write_csv(tips,"modified_tips.csv")`.**
 1. Can you find where this file is saved on your computer?
+

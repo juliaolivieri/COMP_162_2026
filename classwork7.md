@@ -112,7 +112,7 @@ ggplot(msleep, aes(brainwt, bodywt)) +
 5. **(CW) What are some animals in the dataset that sleep for the largest amount of time?**
 6. Try adding a text layer to a boxplot.
 7. Synthesizing everything we have learned about plotting in ggplot2, try to create the most interesting and informative plot that you can based on the msleep data.
-8. **(CW) Submit the plot that you are most proud of to this google form: [https://forms.gle/LPirk3X3E4tUpoPo8](https://forms.gle/xBbQ8EsW6wmjA55p7). I will share some of the submissions.**
+8. **(CW) Submit the plot that you are most proud of to this google form: [https://forms.gle/5dZW62ncweCMxE1D8](https://forms.gle/5dZW62ncweCMxE1D8). I will share some of the submissions.**
 9. (Challenge) Try creating a text layer that is colored by one of the categorical variables.
 10. (Challenge) Explore the additional capabilities of ggplot2 that are summarized in the cheatsheet. Are there any techniques that we didn't go over that you could see yourself using in the future?
 
@@ -142,4 +142,5 @@ write_csv(msleep, "new_sleep.csv")
 1. Define a new column that is equal to the price of the meal per person (`total_bill` plus `tip` divided by `size`).
 1. **(CW) Write this data frame to a .csv file using the following command: `write_csv(tips,"modified_tips.csv")`.**
 1. Can you find where this file is saved on your computer?
+
 

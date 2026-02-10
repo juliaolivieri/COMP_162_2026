@@ -1,5 +1,8 @@
 # Lecture 9 Classwork
 
+Week 5 feedback survey: [https://forms.gle/BfWx1Pm4VfwqnWqZA](https://forms.gle/BfWx1Pm4VfwqnWqZA) 
+
+
 ## Part 0: Setup
 1. **(CW) Download the Star Wars dataset from this link: https://drive.google.com/file/d/1xdtQtyDZl6X24ZeQNXrqEXAx9BynaLfJ/view?usp=sharing**
 2. **(CW) Open a new R script file. This is what you will turn in for today's classwork.**
@@ -175,3 +178,4 @@ starwars %>%
 1. Try filtering the data frame to columns for which `species` is equal to `Human` and sorting by `birth_year` using `%>%`.
 1. (Challenge) Try stringing the `arrange()`, `select()`, `mutate()`, `filter()`, `group_by()`, and `summarize()` functions all together using `%>%`.
 1. (Challenge) Try re-writing all of the previous classwork questions using `%>%`.
+

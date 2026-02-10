@@ -131,7 +131,7 @@ grouped_data %>%
 1. **(CW) Find the average `birth_year` by `gender` using the `sub_starwars` dataframe. You will need to remove NA values from the `birth_year` column to do this**
 2. Remove rows for which `height` is NA.
 3. **(CW) Find the median height of each species. You will need to remove NA values from the height column to do this.**
-4. **(CW) Find the maximum `birth_year` by `homeworld`.**
+4. Find the maximum `birth_year` by `homeworld`.
 5. Find the sum of `mass` by `hair_color`.
 
 ## Part 6: The Pipe (`%>%`)
@@ -179,6 +179,7 @@ starwars %>%
 1. Try filtering the data frame to columns for which `species` is equal to `Human` and sorting by `birth_year` using `%>%`.
 1. (Challenge) Try stringing the `arrange()`, `select()`, `mutate()`, `filter()`, `group_by()`, and `summarize()` functions all together using `%>%`.
 1. (Challenge) Try re-writing all of the previous classwork questions using `%>%`.
+
 
 
 

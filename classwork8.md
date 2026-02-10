@@ -94,7 +94,7 @@ filter(msleep, !is.na(conservation))
 2. Create a data frame called `droids` that contains only rows for which `species == "Droid"`.
 3. **(CW) Create a data frame that contains only rows for which the eye color is "blue" or "black".**
 4. **(CW) Create a dataframe called `sub_starwars` that only contains rows for which `birth_year` is not NA.**
-5. **(CW) Who is the shortest Star Wars character who has red eyes?**
+5. **(CW) Who is the shortest Star Wars character who has red eyes? You will need to filter the dataframe and then sort.**
 6. Try creating a histogram of `birth_year` based on `sub_starwars`.
 7. Create a scatterplot of `birth_year` vs `height`.
 8. Create a boxplot of `species` vs `height`.
@@ -179,6 +179,7 @@ starwars %>%
 1. Try filtering the data frame to columns for which `species` is equal to `Human` and sorting by `birth_year` using `%>%`.
 1. (Challenge) Try stringing the `arrange()`, `select()`, `mutate()`, `filter()`, `group_by()`, and `summarize()` functions all together using `%>%`.
 1. (Challenge) Try re-writing all of the previous classwork questions using `%>%`.
+
 
 
 

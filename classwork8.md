@@ -31,9 +31,8 @@ msleep <- arrange(msleep, vore, desc(sleep_total))
 3. **(CW) Sort the starwars data frame by `hair_color` in descending order, then `birth_year` in ascending order.**
 4. Sort the data frame by `hair_color`, then `birth_year` in descending order.
 5. **(CW) Who is the tallest Star Wars character?**
-6. **(CW) Who is the shortest Star Wars character who has brown eyes?**
-7. Make a bar chart for the `homeworld` variable. Does the plot look better when `homeworld`  is on the x or y axis?
-8. (Challenge) Sort the data frame by every column in the data frame, choosing ascending order for half and descending order for half. 
+6. Make a bar chart for the `homeworld` variable. Does the plot look better when `homeworld`  is on the x or y axis?
+7. (Challenge) Sort the data frame by every column in the data frame, choosing ascending order for half and descending order for half. 
 
 
 ## Part 2: The `select()` function
@@ -94,12 +93,13 @@ filter(msleep, !is.na(conservation))
 2. Create a data frame called `droids` that contains only rows for which `species == "Droid"`.
 3. **(CW) Create a data frame that contains only rows for which the eye color is "blue" or "black".**
 4. **(CW) Create a dataframe called `sub_starwars` that only contains rows for which `birth_year` is not NA.**
-5. Try creating a histogram of `birth_year` based on `sub_starwars`.
-6. Create a scatterplot of `birth_year` vs `height`.
-7. Create a boxplot of `species` vs `height`.
-8. Create a data frame called `tallest` that only contains rows for which `height` is greater than 190.
-9. Create a data frame called `smallest` that only contains rows for which `height` is less than 170.
-10. Create a data frame called `blue_eyes` that only contains characters whose `eye_color` is equal to `blue`.
+5. **(CW) Who is the shortest Star Wars character who has brown eyes?**
+6. Try creating a histogram of `birth_year` based on `sub_starwars`.
+7. Create a scatterplot of `birth_year` vs `height`.
+8. Create a boxplot of `species` vs `height`.
+9. Create a data frame called `tallest` that only contains rows for which `height` is greater than 190.
+10. Create a data frame called `smallest` that only contains rows for which `height` is less than 170.
+11. Create a data frame called `blue_eyes` that only contains characters whose `eye_color` is equal to `blue`.
 
 ## Part 5: The `group_by()` and `summarize()` functions
 ### Code from class
@@ -178,6 +178,7 @@ starwars %>%
 1. Try filtering the data frame to columns for which `species` is equal to `Human` and sorting by `birth_year` using `%>%`.
 1. (Challenge) Try stringing the `arrange()`, `select()`, `mutate()`, `filter()`, `group_by()`, and `summarize()` functions all together using `%>%`.
 1. (Challenge) Try re-writing all of the previous classwork questions using `%>%`.
+
 
 
 

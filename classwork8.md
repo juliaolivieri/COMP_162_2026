@@ -68,7 +68,7 @@ msleep <- mutate(msleep, brain_body_ratio = brainwt/bodywt)
 ### Exercises
 1. **(CW) Add a column called `mass_div_height` that is equal to the `mass`  column divided by the `height` column.**
 2. **(CW) Add a column called `height_inches` that is the height column divided by 2.54.**
-3. Add a column equal to the sum of the height and birth year columns.
+3. **(CW) Add a column equal to the sum of the height and birth year columns.**
 4. Add a column called `sqrt_mass` that is equal to the square root of the `mass` column.
 5. Add a column that is equal to `(mass - birth_year) + height`.
 6. (Challenge) Add a column called `tall` that equals `TRUE` if the character's height is greater than 200, and `FALSE` otherwise.
@@ -178,4 +178,5 @@ starwars %>%
 1. Try filtering the data frame to columns for which `species` is equal to `Human` and sorting by `birth_year` using `%>%`.
 1. (Challenge) Try stringing the `arrange()`, `select()`, `mutate()`, `filter()`, `group_by()`, and `summarize()` functions all together using `%>%`.
 1. (Challenge) Try re-writing all of the previous classwork questions using `%>%`.
+
 

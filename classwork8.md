@@ -26,7 +26,7 @@ msleep <- arrange(msleep, vore, desc(sleep_total))
 ```
 
 ### Exercises
-1. **(CW) Sort the starwars data frame by `hair_color` and view the result.**
+1. **(CW) Sort the starwars data frame by `hair_color`.**
 2. **(CW) Sort the starwars data frame by `birth_year` in descending order.**
 3. **(CW) Sort the starwars data frame by `hair_color` in descending order, then `birth_year` in ascending order.**
 4. Sort the data frame by `hair_color`, then `birth_year` in descending order.
@@ -178,6 +178,7 @@ starwars %>%
 1. Try filtering the data frame to columns for which `species` is equal to `Human` and sorting by `birth_year` using `%>%`.
 1. (Challenge) Try stringing the `arrange()`, `select()`, `mutate()`, `filter()`, `group_by()`, and `summarize()` functions all together using `%>%`.
 1. (Challenge) Try re-writing all of the previous classwork questions using `%>%`.
+
 
 
 

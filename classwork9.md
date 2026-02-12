@@ -28,11 +28,7 @@ Column descriptions:
 `humidity` | Humidity (between 0 and 100)|
 `windspeed` | Wind speed in miles per hour|
 
-## Part 2: Casual riders
-1. **(CW) Use `mutate()` to create a column that contains the fraction of casual bike riders**
-2. **(CW) Create a visualization exploring what influences the fraction of casual riders**
-3. How can the pattern you see be explained by the variables in the dataset?
-
+## Part 2: Bikesharing practice 1
 Code from class is available here: https://juliaolivieri.github.io/COMP_162_2024/lecture10.1.html 
 
 1. **(CW) Use `mutate()` to create a new column (perhaps `count/temperature_F`) and plot the new column vs `date` using `geom_points()`**

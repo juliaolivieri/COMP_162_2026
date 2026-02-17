@@ -63,7 +63,7 @@ pairs(select(bike_sharing, temperature_F, humidity, windspeed, count))
 1. Find the pair of variables with the lowest correlation and a p value of < 0.05.
 1. Try filtering by sex or sport and check how the pairwise correlations change. Do the variables have higher or lower correlations after filtering?
 
-## Part 2: Regression
+## Part 3: Regression
 
 ### Code from class:
 ```
@@ -84,4 +84,5 @@ ggplot(bike_sharing, aes(temperature_F, count)) +
 3. Plot two quantitative variables against each other. If you use `geom_smooth(method=lm)`, the linear regression line will be plotted. Try this out.
 4. How do these values change when you reverse the order of the variables?
 5. Try performing linear regressions for the pairs of variables you found correlations for in the previous section.
+
 

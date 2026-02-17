@@ -15,6 +15,7 @@ t.test(count ~ is_cold, data = bike_sharing)
 ```
 
 ### Exercises
+1. **(CW) Create an R Markdown file. You will turn in the html version for this assignment**
 1. **(CW) Read the following csv into a data frame called `ais` in R: https://drive.google.com/file/d/1WY7MHz3TnBvMPYJXq8UecPrhgAt8krAJ/view?usp=sharing**
 1. **(CW) Perform a t-test using the ais data, with `sex` as the independent variable and `ht` as the dependent variable. Do you detect a difference in mean height by sex?**
 1. Perform a t-test using `sex` as the independent variable and `wcc` as the dependent variable. Do you detect a difference in mean wcc by sex?
@@ -84,6 +85,7 @@ ggplot(bike_sharing, aes(temperature_F, count)) +
 3. Plot two quantitative variables against each other. If you use `geom_smooth(method=lm)`, the linear regression line will be plotted. Try this out.
 4. How do these values change when you reverse the order of the variables?
 5. Try performing linear regressions for the pairs of variables you found correlations for in the previous section.
+
 
 
 

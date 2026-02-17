@@ -1,4 +1,4 @@
-# Extra classwork problems
+# Compiled classwork problems
 
 ## Index
 - [Classwork 5: Intro to R](#classwork-5-intro-to-r)
@@ -939,6 +939,7 @@ ggplot(bike_sharing, aes(temperature_F, count)) +
 3. Plot two quantitative variables against each other. If you use `geom_smooth(method=lm)`, the linear regression line will be plotted. Try this out.
 4. How do these values change when you reverse the order of the variables?
 5. Try performing linear regressions for the pairs of variables you found correlations for in the previous section.
+
 
 
 

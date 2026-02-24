@@ -2,6 +2,8 @@
 
 ## Part 1
 
+**(CW) What should be "cleaned up" about this data?**
+
 ## Code from class
 
 ```
@@ -61,5 +63,6 @@ Salary dataset:
     * No need to create a new plot
     * When you’re done, submit it to the google form link: [https://docs.google.com/forms/d/e/1FAIpQLScwfNbcOOKAF7ojGcZcKWcPRiT1jIu52VotPfPBN6l8cBJ5lQ/viewform](https://forms.gle/Xh7AWdqj5hG8Kyg76)
 1. Work on designing the slides/poster for your project. 
+
 
 

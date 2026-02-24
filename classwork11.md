@@ -16,7 +16,7 @@ ufos$datetime <- mdy_hm(ufos$datetime)
 ufos <- mutate(ufos, red = str_detect(tolower(comments), "red"))
 
 # split string based on substring
-ufos$split_city <- str_split_fixed(ufos$city, "\\(", 2)[ ,2]
+ufos$split_city <- str_split_fixed(ufos$city, "\\(", 2)[ ,1]
 
 ufos <- mutate(ufos, state = recode(state, tx = "Texas", ct="Connecticut"))
 
@@ -62,6 +62,7 @@ Salary dataset:
     * When you’re done, submit it to the google form link: [https://docs.google.com/forms/d/e/1FAIpQLScwfNbcOOKAF7ojGcZcKWcPRiT1jIu52VotPfPBN6l8cBJ5lQ/viewform](https://forms.gle/Xh7AWdqj5hG8Kyg76)
 1. **(CW) Compare poster presentations to slide presentations: What are pros and cons of each?**
 1. Work on designing the slides/poster for your project. 
+
 
 
 

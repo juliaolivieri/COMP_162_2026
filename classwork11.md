@@ -51,7 +51,7 @@ Salary dataset:
 3. **(CW) Create a binary column by searching for a word or phrase in the “job description” column**
 4. Create a column with an integer for the lower-bound revenue of the company
 
-## Part 2
+## Part 3
 
 1. **(CW) What are some rules for good presentation design?**
 1. **(CW) What could be improved about this slide? ![example plot]**(https://github.com/juliaolivieri/COMP_162_2025/blob/f1662c8d72af0cca4725b878278ff83744762338/L14_presenting_data/example_slide.png)
@@ -61,6 +61,7 @@ Salary dataset:
     * No need to create a new plot
     * When you’re done, submit it to the google form link: [https://docs.google.com/forms/d/e/1FAIpQLScwfNbcOOKAF7ojGcZcKWcPRiT1jIu52VotPfPBN6l8cBJ5lQ/viewform](https://forms.gle/Xh7AWdqj5hG8Kyg76)
 1. Work on designing the slides/poster for your project. 
+
 
 
 

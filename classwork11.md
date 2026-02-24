@@ -30,7 +30,7 @@ ufos <- mutate(ufos, red = str_detect(tolower(comments), "red"))
 
 1. **(CW) Convert “date posted” to time format using lubridate**
 2. **(CW) Add a binary column marking whether "green" appears in the comment**
-3. **(CW) Create the `split_city` column using the code above**
+3. Create the `split_city` column using the code above
 
 ```
 ufos <- mutate(ufos, state = recode(state, tx = "Texas"))
@@ -66,6 +66,7 @@ Salary dataset:
     * When you’re done, submit it to the google form link: [https://docs.google.com/forms/d/e/1FAIpQLScwfNbcOOKAF7ojGcZcKWcPRiT1jIu52VotPfPBN6l8cBJ5lQ/viewform](https://forms.gle/Xh7AWdqj5hG8Kyg76)
 1. **(CW) Compare poster presentations to slide presentations: What are pros and cons of each?**
 1. Work on designing the slides/poster for your project. 
+
 
 
 

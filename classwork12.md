@@ -200,7 +200,6 @@ animals.loc[[3, 6],["size", "name", "age"]]
 
 #### Exercises
 
-1. **(CW) Create a new jupyter notebook. Import pandas, matplotlib, and seaborn. You will submit this file in your classwork assignment for today's class.**
 1. Load the mining and penguins datasets from last class (https://github.com/juliaolivieri/COMP_162_2025/blob/main/L15_python_intro/classwork13.md).
 1. **(CW) Display the mining dataset.**
 1. **(CW) Index into the "pearl" entry using `.iloc[]`**

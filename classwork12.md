@@ -2,12 +2,12 @@
 
 Note: You will turn in your classwork assignment as a .html file from your jupyter notebook (File --> Save and Export Notebook As... --> HTML).
 
-## Part 1
+## Part 0
 
 1. What are the benefits of using R for data analytics? What are the limitations of using R for data analytics?
 2. Why learn both Python and R?
 
-## Part 2
+## Part 1
 
 ## Install Anaconda
 
@@ -112,7 +112,7 @@ math.sqrt(x)
 1. The Python Standard Library includes a module random containing a function `randint()`. Given two integers, `randint()` will contain an integer in that range. For example, `randint(1,6)` will return an integer between 1 and 6 (inclusive). Use this function to find a random number between 0 and 36.
 1. What happens when you set a random seed with the `seed()` function before running `randint()`? Why might this function be useful? https://docs.python.org/3/library/random.html
 
-## Part 3
+## Part 2
 
 Mapping between R and Python commands: [https://github.com/juliaolivieri/COMP_162_2024/blob/main/lecture15/python_R_translation.md](https://github.com/juliaolivieri/COMP_162_2025/blob/main/L15_python_intro/python_R_translation.md)
 

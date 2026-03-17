@@ -169,7 +169,6 @@ taxis["payment"].value_counts()
 
 1. **(CW) Find the number of rows and columns of the penguins dataset.** 
 1. **(CW) Display the last 6 rows of the penguins dataset.**
-1. **(CW) Display the mining dataset.**
 1. **(CW) Classify the variables of the penguins dataset. Use `.info()` to help you.**
 1. **(CW) Find summary statistics for each column of the penguins dataset, using the `.describe(include = "all")`  method.**
 1. **(CW) How many penguins of each species are in the datset?**

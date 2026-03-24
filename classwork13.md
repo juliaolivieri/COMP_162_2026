@@ -2,11 +2,11 @@
 
 ## Part 1
 
-1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
+a. **(CW) Summarize the information presented in this plot in ~1 sentence.**
 <img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/flipper_density.png" height="400" />
-1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
+b. **(CW) Summarize the information presented in this plot in ~1 sentence.**
 <img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_scatter.png" height="400" />
-1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
+c. **(CW) Summarize the information presented in this plot in ~1 sentence.**
 <img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_box.png" height="400" />
 
 

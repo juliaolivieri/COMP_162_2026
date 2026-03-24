@@ -1,5 +1,15 @@
 # Classwork 13
 
+## Part 1
+
+1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
+<img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/flipper_density.png" height="400" />
+1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
+<img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_scatter.png" height="400" />
+1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
+<img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_box.png" height="400" />
+
+
 ### Plotting
 
 #### Code from class
@@ -35,14 +45,6 @@ plt.show()
 1. **(CW) Make at least one plot based on this data using the `displot` function.**
 1. **(CW) Brainstorm at least three plots that would help you understand this data. Which variable(s) are involved? Are they quantitative or categorical?**
 
-## Part 3
-
-1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
-<img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/flipper_density.png" height="400" />
-1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
-<img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_scatter.png" height="400" />
-1. **(CW) Summarize the information presented in this plot in ~1 sentence.**
-<img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_box.png" height="400" />
 
 ## Part 1
 

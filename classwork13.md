@@ -10,7 +10,7 @@ c. **(CW) Summarize the information presented in this plot in ~1 sentence.**
 <img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture16/example_box.png" height="400" />
 
 
-### Plotting
+### Part 2
 
 #### Code from class
 
@@ -22,28 +22,26 @@ plt.show()
 # create a bar plot for pickup_borough
 sns.displot(data = taxis, x = "pickup_borough")
 plt.show()
+
+# creating pairwise scatterplots of all quantitative variables
+sns.pairplot(data=penguins)
+plt.show()
+
+# creating pairwise scatterplots of all quantitative variables colored by species
+sns.pairplot(data=penguins, hue="species")
+plt.show()
 ```
-
-#### Exercises
-1. **(CW) Create a histogram for each quantitative variable in the penguins dataset**
-1. **(CW) Create a bar chart for each categorical variable in the penguins dataset**
-1. Create a histogram of `bill_length_mm` of Adelie penguins.
-1. There are many different kinds of plots you can make with the `displot()` function. What happens when you use an x and y variable? 
-1. Test out other displot options based on this document: https://seaborn.pydata.org/tutorial/distributions.html 
-
-## Part 2
 
 
 ### Exercises 
 
 1. **(CW) Download the college majors dataset and load it using pandas: https://drive.google.com/file/d/1WK9sQdr_S7RHDUIdEBPZ88dPeOUvTY7E/view?usp=sharing (you can find documentation about this dataset here: https://data.world/fivethirtyeight/college-majors/workspace/file?filename=readme.md
 )**
-1. Find the number of rows and columns of the DataFrame.
-1. **(CW) What is the data type of each column?**
-1. Use the `value_counts()`  function to find the count of each unique value in every categorical column.
-1. **(CW) Filter the data based on one categorical variable value. Compute summary statistics before and after filtering. Do any of the summary statistics change?**
-1. **(CW) Make at least one plot based on this data using the `displot` function.**
+1. **(CW) Make at least one histogram using this data.**
+1. **(CW) Make at least one bar chart using this data.**
+1. **(CW) Make a pairplot for all of the quantitative variables.** 
 1. **(CW) Brainstorm at least three plots that would help you understand this data. Which variable(s) are involved? Are they quantitative or categorical?**
+1. Try changing the `hue` and `kind` parameters in your plots.
 
 
 ## Part 1
@@ -104,7 +102,7 @@ Use the college majors dataset: https://drive.google.com/file/d/1WK9sQdr_S7RHDUI
 
 1. **(CW) Make a plot of a quantitative variable using `displot()`. Set `hue` equal to a categorical variable. Try with `kind = "hist"` and `kind = "kde"`. Which provides a better representation of your data?**
 1. **(CW) Make a plot of a categorical variable vs a quantitative variable using `catplot()`. Set `hue` equal to a categorical variable. Try with `kind` equal to each of the following: `"strip", "swarm", "box", "violin", "boxen", "point", "bar"`. Which provides the best representation of your data?**
-1. **(CW) Create at least one of the plots you brainstormed in last classwork (Brainstorm at least three plots that would help you understand this data).**
+1. **(CW) Create at least one of the plots you brainstormed in last part (Brainstorm at least three plots that would help you understand this data).**
 1. Work on improving one of your plots so that it enhances understanding of the dataset. Save it by including `plt.savefig("my_img.png")` on the line before `plt.show()`.
 1. **(CW) Submit your favorite plot: [https://forms.gle/P7ZEUeKV8JSZei4m9](https://forms.gle/P7ZEUeKV8JSZei4m9)**
 
@@ -114,13 +112,7 @@ Use the college majors dataset: https://drive.google.com/file/d/1WK9sQdr_S7RHDUI
 ```
 penguins = sns.load_dataset("penguins")
 
-# creating pairwise scatterplots of all quantitative variables
-sns.pairplot(data=penguins)
-plt.show()
 
-# creating pairwise scatterplots of all quantitative variables colored by species
-sns.pairplot(data=penguins, hue="species")
-plt.show()
 
 # adding a regression line to a scatterplot
 sns.lmplot(data=tips, x="total_bill", y="tip", col="time", hue="smoker")

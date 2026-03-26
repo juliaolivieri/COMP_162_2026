@@ -26,7 +26,7 @@ plt.show()
    
 <img src="https://raw.githubusercontent.com/juliaolivieri/COMP_162_2024/main/lecture18/corr.png" height="400" />
 
-## Part 3: Introduction to Machine Learning
+## Part 2: Introduction to Machine Learning
 
 ### Exercises
 

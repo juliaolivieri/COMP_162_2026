@@ -52,12 +52,12 @@ plt.show()
 1. Change the path to the bikesharing dataset if necessary
 1. Run all cells. Try to understand each output. Which variable is being predicted? Which is used for the prediction?
 1. Try setting x_column equal to different quantitative variable names.
-   a. Which yields the best score?
-   a. Which yields the worst score?
+   – Which yields the best score?
+   – Which yields the worst score?
 1. For one of the models:
-   a. Try different values for test_size (0.1, 0.5, 0.9)
-   a. Which performs the best? How about the worst?
+   – Try different values for test_size (0.1, 0.5, 0.9)
+   – Which performs the best? How about the worst?
 1. To turn in: 
-   a. Which variable for x_column yields the best model to predict “count”? (You can’t use “count” as the independent variable)
+   – Which variable for x_column yields the best model to predict “count”? (You can’t use “count” as the independent variable)
 a. What is the effect of changing test_size on your model?
 

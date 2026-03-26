@@ -47,17 +47,17 @@ plt.show()
 ## Part 3
 
 1. Download notebook from this link by choosing File → Download → Download .ipynb : https://colab.research.google.com/drive/1dJjaNOX8daWQBNLAO07WSF7be9ScOt2b?usp=sharing 
-1. Launch jupyter notebooks through Anaconda Navigator
-1. Open the notebook that you just downloaded
-1. Change the path to the bikesharing dataset if necessary
-1. Run all cells. Try to understand each output. Which variable is being predicted? Which is used for the prediction?
-1. Try setting x_column equal to different quantitative variable names.
-   – Which yields the best score?
-   – Which yields the worst score?
-1. For one of the models:
-   – Try different values for test_size (0.1, 0.5, 0.9)
-   – Which performs the best? How about the worst?
-1. To turn in: 
-   – Which variable for x_column yields the best model to predict “count”? (You can’t use “count” as the independent variable)
-a. What is the effect of changing test_size on your model?
+2. Launch jupyter notebooks through Anaconda Navigator
+3. Open the notebook that you just downloaded
+4. Change the path to the bikesharing dataset if necessary
+5. Run all cells. Try to understand each output. Which variable is being predicted? Which is used for the prediction?
+6. Try setting x_column equal to different quantitative variable names.
+   - Which yields the best score?
+   - Which yields the worst score?
+7. For one of the models:
+   - Try different values for test_size (0.1, 0.5, 0.9)
+   - Which performs the best? How about the worst?
+8. To turn in:
+   - Which variable for x_column yields the best model to predict “count”? (You can’t use “count” as the independent variable)
+   - What is the effect of changing test_size on your model?
 

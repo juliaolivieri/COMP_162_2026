@@ -74,3 +74,5 @@ plt.show()
    – Discuss how the model performs when trying to predict “temperature_F”
    – Discuss what happens when you vary alpha.
 
+
+**(CW) Turn in .html file of notebook with your correlations and written answers to the other questions. No need to turn in the linear regression notebooks**

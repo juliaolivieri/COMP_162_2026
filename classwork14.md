@@ -57,7 +57,20 @@ plt.show()
 7. For one of the models:
    - Try different values for test_size (0.1, 0.5, 0.9)
    - Which performs the best? How about the worst?
-8. To turn in:
+8. **(CW) To turn in:**
    - Which variable for x_column yields the best model to predict “count”? (You can’t use “count” as the independent variable)
    - What is the effect of changing test_size on your model?
+
+## Part 4
+
+1. Download the multivariate linear regression notebook. Change the data path if necessary. : https://colab.research.google.com/drive/1Q2CWF2T5JDyaEvujSs8zG7Y3i1v9yj26?usp=sharing 
+2. Try to predict "count" using multivariate regression. How does the model perform?
+3. Try to predict "temperature_F". How does the model perform?
+4. Try varying the value of alpha. Which value gives the highest test score?
+5. Try varying test_size
+6. Try varying random_state
+7. **(CW) To turn in:**
+   – Discuss how the model performs when trying to predict “count” compared to your best-performing model from the previous notebook.
+   – Discuss how the model performs when trying to predict “temperature_F”
+   – Discuss what happens when you vary alpha.
 

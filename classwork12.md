@@ -239,4 +239,4 @@ taxis.sort_values("fare")
 1. Continue translating this R script into a python script (so, create a jupyter notebook that performs this same analysis): https://juliaolivieri.github.io/
 1. For any of these commands, do you prefer the syntax or output from R rather than Python, or vice versa?
 
-Please upload the .ipynb file for your submission.
+Please upload the .html file for your submission.

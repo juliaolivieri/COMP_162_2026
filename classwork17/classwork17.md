@@ -81,6 +81,17 @@ Your file must:
 ```
 X_unlabeled = pd.read_csv("census_unlabeled_features.csv")
 
+
+X_train_encoded = pd.get_dummies(X)
+
+X_unlabeled = pd.get_dummies(X_unlabeled)
+
+# Align columns
+X_unlabeled = X_unlabeled.reindex(
+    columns=X_train_encoded.columns,
+    fill_value=0
+)
+
 ids = X_unlabeled["id"]
 
 y_pred = model.predict(X_unlabeled)

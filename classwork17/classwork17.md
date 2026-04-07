@@ -14,7 +14,7 @@ This is a binary classification problem using census data.
 You are given two datasets:
 
 ### 1. Labeled dataset (for building your model)
-- **File:** `census_labeled.csv`  
+- **File:** `census_labeled.csv`: https://github.com/juliaolivieri/COMP_162_2026/blob/main/classwork17/census_labeled.csv  
 - Includes both features **and** the target variable `income`
 
 You should use this dataset to:
@@ -27,7 +27,7 @@ You should use this dataset to:
 ---
 
 ### 2. Unlabeled dataset (for final predictions)
-- **File:** `census_unlabeled_features.csv`  
+- **File:** `census_unlabeled_features.csv`: https://github.com/juliaolivieri/COMP_162_2026/blob/main/classwork17/census_unlabeled_features.csv  
 - Contains the same features, but **does NOT include `income`**
 
 Your task is to:

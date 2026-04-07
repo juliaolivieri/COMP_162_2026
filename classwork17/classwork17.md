@@ -74,4 +74,23 @@ Your file must:
   https://github.com/juliaolivieri/COMP_162_2026/blob/main/classwork17/census_unlabeled_features.csv  
 
 - Example submission format:  
-  https://github.com/juliaolivieri/COMP_162_2026/blob/main/classwork17/prediction_example_format.csv  
+  https://github.com/juliaolivieri/COMP_162_2026/blob/main/classwork17/prediction_example_format.csv
+
+## To save your output
+
+```
+X_unlabeled = pd.read_csv("census_unlabeled_features.csv")
+
+ids = X_unlabeled["id"]
+
+y_pred = model.predict(X_unlabeled)
+
+
+submission = pd.DataFrame({
+    "id": ids,
+    "income": y_pred
+})
+
+
+submission.to_csv("predictions.csv", index=False)
+```

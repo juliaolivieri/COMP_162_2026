@@ -58,7 +58,7 @@ You may evaluate your model using:
 
 ---
 
-## ⚠️ Important Note on Class Imbalance
+## Important Note on Class Imbalance
 
 The labeled dataset is **imbalanced**:
 - 415 observations: `<=50K`

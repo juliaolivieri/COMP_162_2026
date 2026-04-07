@@ -41,42 +41,20 @@ Your goal is to produce the most accurate predictions possible on the **unlabele
 
 Your predictions will be evaluated based on **accuracy** compared to the true (hidden) values.
 
----
 
-## Modeling
-
-You are free to choose any approach, including:
-- Logistic regression
-- Decision trees
-- Random forests
-- Other models
-
-You may evaluate your model using:
-- Train/test split
-- Cross-validation
-- Any other method
+You are free to choose any approach (Logistic regression, Decision trees, Random forests, Other models, etc). You can also evaluate your model however you want (split into train/test, do k-fold cross-validation, etc). 
 
 ---
 
 ## Important Note on Class Imbalance
 
-The labeled dataset is **imbalanced**:
-- 415 observations: `<=50K`
-- 85 observations: `>50K`
-
-However, the evaluation dataset (the unlabeled one) will be:
-- **Balanced (50/50 split)**
+The labeled dataset is **imbalanced**: 415 observations are labeled `<=50K` and 85 observations are labeled `>50K`. However, the evaluation dataset (the unlabeled one) will be **Balanced (50/50 split)**
 
 ---
 
 ## What to Submit
 
-### 1. Notebook (HTML)
-- Export your notebook as an **.html file** and upload it to Canvas. This should show your process (exploration, modeling, evaluation)
-
----
-
-### 2. Predictions CSV (Google Form)
+Export your notebook as an **.html file** and upload it to Canvas. This should show your process (exploration, modeling, evaluation)
 
 Submit a CSV file to:  
 https://forms.gle/VSkRP21Rbq7Q6fFb7
